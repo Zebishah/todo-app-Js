@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d2630;
+    gap: 20px;
+}
+body h2{
+color: white;
+font-family: monospace;
+font-size: 23px;
+font-weight: bolder;
+
+background-color: rgb(251, 255, 0);
+color: black;
+padding: 10px;
+margin-top: 20px;
+border-radius: 8px;
+
+
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+   gap: 10px;
+    max-width: 800px;
+   
+}
+.formm label{
+    color: white;
+    font-size: 15px;
+    font-family:sans-serif;
+
+}
+.formm .field{
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     outline: none;
+     border: none;
+     
+}
+.formm .submit{
+     padding: 8px;
+     border-radius: 8px;
+     color: black;
+     border: none;
+     background-color: rgb(251, 255, 0);
+     transition: all 0.5s ease-in-out;
+     cursor: pointer;
+}
+.formm .submit:hover{
+    background-color: blue;
+    color: white;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid white;
+}
+.table thead tr{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.table thead tr td{
+    
+  
+    color: white;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.table .table-body{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.table .table-body tr {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.table .table-body tr td{
+  padding-top: 10px;
+  color: white;
+}
+
+.table .table-body tr .btns-col .btns{
+padding: 5px;
+}
+.table .table-body tr:first-child{
+   
+}
